@@ -10,6 +10,7 @@ public class MyFirstTest {
         System.out.println("Runs!");
         int result = sum(2, 2);
         Assertions.assertEquals(4, result);
+        System.out.println("Updated.");
     }
 
 
